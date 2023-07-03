@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Bypass CM",
+  "version": "0.1",
+  "description": "Bypassing Ad Wall of Channel Myanmar",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules_1.json"
+    }]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "https://channelmyanmar.org/*"
+  ]
+}
