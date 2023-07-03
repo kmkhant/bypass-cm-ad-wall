@@ -4,7 +4,7 @@
 
 <h1 align="center">Bypass CM</h1>
 
-_Bypass Paywalls is a web browser extension to help bypass ads on channel myanmar sites._
+_Bypass CM is a web browser extension to help bypass ads on channel myanmar sites._
 
 ### Installation Instructions
 
