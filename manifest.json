@@ -9,6 +9,11 @@
   "icons": {
     "128": "icon.png"
   },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+    
+  },
   "declarative_net_request" : {
     "rule_resources" : [{
       "id": "ruleset_1",
@@ -18,9 +23,11 @@
   },
   "permissions": [
     "declarativeNetRequest",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequestFeedback",
+    "webRequest"
   ],
   "host_permissions": [
-    "https://channelmyanmar.org/*"
+    "https://channelmyanmar.org/*",
+    "https://aniwave.to/*"
   ]
 }

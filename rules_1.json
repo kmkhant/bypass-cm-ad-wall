@@ -7,5 +7,14 @@
       "urlFilter": "||thecmpage.com",
       "resourceTypes": ["script"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://aniwave.to/platform.bidgear.com/*",
+      "resourceTypes": ["script"]
+    }
   }
 ]
